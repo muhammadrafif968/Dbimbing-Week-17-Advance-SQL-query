@@ -30,4 +30,4 @@ Teknik-teknik ini meningkatkan efisiensi kerja dan kemampuan menyelesaikan masal
 Pertimbangan platform dalam pemilihan teknik
 
 Dalam beberapa platform seperti HackerRank, terdapat batasan penggunaan fitur tertentu. Misalnya pada soal Contest Leaderboard, penggunaan CTE dan beberapa window function tidak diizinkan oleh environment yang tersedia. Oleh karena itu, solusi harus disesuaikan menggunakan subquery sebagai alternatif, meskipun hasil akhir logikanya tetap sama.
-Fleksibilitas ini merupakan bagian penting dari praktik SQL di dunia nyata — yaitu mampu menyesuaikan teknik dengan keterbatasan platform, engine SQL, dan performa database.
+Fleksibilitas ini merupakan bagian penting dari praktik SQL di dunia nyata, yaitu mampu menyesuaikan teknik dengan keterbatasan platform, engine SQL, dan performa database.
