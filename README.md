@@ -5,6 +5,7 @@ Tugas Mas Thosan Dbimbing Week 17 Advance SQL query dari Hacker Rank
 Reflection Questions
 1. Ketika membangun solusi untuk setiap studi kasus, bagaimana Anda menentukan struktur query yang paling efektif (misalnya memutuskan kapan menggunakan CTE, kapan cukup dengan subquery, atau kapan window function lebih tepat dibanding agregasi biasa)? Jelaskan bagaimana pertimbangan tersebut membantu Anda menghasilkan query yang lebih terstruktur, mudah diuji, dan efisien.
 2. Setelah mengerjakan seluruh soal, teknik SQL lanjutan apa yang menurut Anda paling memberi dampak pada cara Anda menganalisis dan memproses data (misalnya range join, window function, nested aggregation, atau CASE WHEN)? Jelaskan bagaimana teknik tersebut dapat membantu Anda menyelesaikan masalah data yang lebih kompleks di pekerjaan nyata.
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Menentukan Struktur Query yang Efektif
 
@@ -15,11 +16,15 @@ Window function dipilih ketika analisis membutuhkan perhitungan yang tetap mempe
 Agregasi biasa tetap dipakai ketika hanya butuh hasil ringkasan.
 Pendekatan ini membantu menghasilkan query yang tidak hanya berjalan benar, tetapi juga efisien dan mudah dirawat.
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 2. Beberapa teknik memberikan dampak besar pada kemampuan analisis data lanjutan:
 CASE WHEN + BETWEEN sangat membantu mengategorikan nilai dan menerapkan logika bisnis langsung dalam query.
 CTE memudahkan pemisahan proses perhitungan menjadi tahap-tahap yang jelas dan reusable.
 Window function memberikan kemampuan analisis yang lebih advance seperti ranking dan top-N per grup, sehingga cocok untuk analisis user, transaksi, hingga scoring sistem.
 Teknik-teknik ini meningkatkan efisiensi kerja dan kemampuan menyelesaikan masalah data yang lebih kompleks di dunia nyata.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 Pertimbangan platform dalam pemilihan teknik
 
